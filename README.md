@@ -16,8 +16,8 @@ This repository provides a **FastAPI backend** to serve mock images with randoml
 **Frontend Annotation Tool**: Design a frontend application to:
    - Fetch images from the backend.
    - Allow users to draw bounding boxes.
-   - Assign labels for **Color** and **Shape** categories to the detected objects.
-   - Save annotations for future use.
+   - Assign labels for **Color** and **Shape** categories to each boxes.
+   - Send the annotations to `POST /submit-bbox`. Refer to swagger docs for schema.
 
 Feel free to use any library to make this work. An exaple of such library that can be used is here [Annotorious React](https://annotorious.dev/react/custom-popups/) for bounding box creation and labeling.
 
